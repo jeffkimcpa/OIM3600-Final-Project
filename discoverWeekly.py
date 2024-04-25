@@ -11,9 +11,9 @@ TOKEN_INFO = 'token_info'
 
 @app.route('/')
 def index():
-    return "Welcome to my Spotify App <a href='/login'>Login with Spotify</a>"
+    return render_template('index.html')
 
-@app.route('/login')
+@app.route('/login.html')
 def login():
     auth_url = create_spotify_oauth().get_authorize_url()
     return redirect(auth_url)
