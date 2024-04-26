@@ -47,7 +47,6 @@ def save_discover_weekly():
             discover_weekly_playlist_id = playlist['id']
         if(playlist['name'] == 'Saved Weekly'):
             saved_weekly_playlist_id = playlist['id']
-        print(f'{playlist['name']}')
         
 
     if not discover_weekly_playlist_id:
