@@ -12,7 +12,7 @@ The user must be first logged in to spotify, then when they run the code and ope
 The API We used for this project is the Spotify API, but we also used the spotipy library to make it easier to use the api and access aspects of it in python. We also used flask for our website segment. 
 
 **4. Project Structure**
-In making this project, we mainly used the discoverWeekly.py file to handle the bulk of the work. Though it is a simple script it uses the flask framework to interact with the Spotify API. We have made several html templates to deploy on a website, but it still is a working progress that needs a resolution for the redirect uri. We have been trying to solve this issue, but it's been rough. 
+In making this project, we mainly used the discoverWeekly.py file to handle the bulk of the work. Though it is a simple script it uses the flask framework to interact with the Spotify API. We have made several html templates to deploy on a website, but it still is a working progress that needs a resolution for the redirect uri. We have been trying to solve this issue, but it's been rough. However, after careful error processing and persistence, we made it work!!
 
 **5. Collaboration Information**
 We began by having a meeting about what we wanted to accomplish in the project, and then seperated the tasks we needed to complete between the two of us. After outlining our hypothetical code together, we created a shared repository as well as the necessary files we would need. we passed off writing segments of the code, and fixing bugs. Whoever completed more sections of the main code then passed off the html and front end to the other person. 
