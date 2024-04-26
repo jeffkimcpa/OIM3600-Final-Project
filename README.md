@@ -6,8 +6,10 @@ playlist that generates a Saved Weekly playlist based on the user's temporary an
 
 **1. Project Overview**
 We decided to use the Spotify functionality that already created a Discover weekly playlist, but would re-save over the playlist weekly. So our goal was to save the songs that were generated in that playlist so that it would hold your Discover weekly songs and add to them as the weeks went by. We also wanted the playlist to focus on top songs and artists, and because it is continuous we wanted the songs to not be repeated in the playlist should they appear multiple times. We also wanted to use Flask to create a website visual element that allowed you to login, and see whether or not the playlist creation was succesful. 
+
 **2. Usage Guidelines**
 The user must be first logged in to spotify, then when they run the code and open the website, they just have to click on the link that says "login with spotify" If they succesfully login they will see a success visual, and can check their account to see the playlist has been made. Ohterwise they will get an error message, asking them to login to their spotify account, or if they have already made the playlist they will get a message that the playlist has already been made. 
+
 **3. Dependencies**
 The API We used for this project is the Spotify API, but we also used the spotipy library to make it easier to use the api and access aspects of it in python. We also used flask for our website segment. 
 
@@ -16,12 +18,14 @@ In making this project, we mainly used the discoverWeekly.py file to handle the 
 
 **5. Collaboration Information**
 We began by having a meeting about what we wanted to accomplish in the project, and then seperated the tasks we needed to complete between the two of us. After outlining our hypothetical code together, we created a shared repository as well as the necessary files we would need. we passed off writing segments of the code, and fixing bugs. Whoever completed more sections of the main code then passed off the html and front end to the other person. 
+
 **6. Acknowledgments**
 - Flask
 - Spotipy 
 - Spotify API 
 - SpotifyOAuth
 - time
+
 **7. Reflection**
 To start with, we initially had the idea to do some sort of board game as an online version, but we quickly ran into barriers in the amount of coding experiance we had as well as the sheer amount of code we would have to write. It just wasn't a project we could accomplish in the time span. So after looking into quite a few APIs we landed on using the spotify api to create some sort of playlist, but we really wanted it personalized in some way to the user. Because spotify already has a few personalized features, we decided to play with their weekly rotating playlists to create somehting more permanent that builds on itslef, and we could actually impliment within someones account. 
 We had a few challenges trying to reach the API, so we did some research into other people's use of spotify's api and found Spotipy which ended up helping out with a lot of our more dense code. I think it would have been super helpful to do that sort of research before we even started our project because it would have saved us a lot of time expirementing with the API. 
