@@ -108,4 +108,4 @@ def create_spotify_oauth():
         scope = 'user-library-read playlist-modify-public playlist-modify-private'
     )
 
-app.run(debug=True)
+app.run(host='0.0.0.0', port=10000, debug=True)
