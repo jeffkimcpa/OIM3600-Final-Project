@@ -1,7 +1,50 @@
-{% extends 'base.html' %}
-
-{% block title %}Welcome - Spotify Flask App{% endblock %}
-
-{% block content %}
-    <p>Welcome to my Spotify App <a href="login.html">Login with Spotify</a></p>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Spotify Project</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #56139c;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #63ff25;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Welcome to your Weekly Discovery Playlist Maker</h1>
+        <p>Unleash your past music favorites</p>
+        <p>Enoy the top hits, create amazing playlists, and dive deep into the world of music.</p>
+        <p>Ready to get started? <a href="login.html">Login with Spotify</a></p>
+    </div>
+</body>
+</html>
