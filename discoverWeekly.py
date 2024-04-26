@@ -80,7 +80,7 @@ def save_discover_weekly():
     #it just returns a message that informs the user that he or she
     #"Already added everything"
     if len(song_uris) == 0:
-        return 'Already added everything from this week'
+        return render_template('already.html')
     else:
         sp.user_playlist_add_tracks(user_id, saved_weekly_playlist_id, song_uris, None)
         return render_template('success.html')
