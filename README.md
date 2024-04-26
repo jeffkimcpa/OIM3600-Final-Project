@@ -1,4 +1,5 @@
 **Group: Jeff & Gahyeon**
+
 Project Overview: We wanted to Create a Web-App that would use the Spotify API to create a
 playlist that generates a Saved Weekly playlist based on the user's temporary and automatically generated Discover Weekly playlist.
 
