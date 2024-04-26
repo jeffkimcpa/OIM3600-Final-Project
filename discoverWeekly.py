@@ -47,10 +47,11 @@ def save_discover_weekly():
             discover_weekly_playlist_id = playlist['id']
         if(playlist['name'] == 'Saved Weekly'):
             saved_weekly_playlist_id = playlist['id']
+        print(f'{playlist['name']}')
         
 
     if not discover_weekly_playlist_id:
-        return 'Discover Weekly Not Found'
+        return render_template('error.html')
     
     if not saved_weekly_playlist_id:
         new_playlist = sp.user_playlist_create(user_id, 'Saved Weekly', True)
