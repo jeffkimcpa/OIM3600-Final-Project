@@ -29,6 +29,7 @@ def redirect_page():
 
 @app.route('/saveDiscoverWeekly')
 def save_discover_weekly():
+    session.clear()
     try:
         token_info = get_token()
     except: 
